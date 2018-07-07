@@ -1,0 +1,27 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launch process",
+            "type": "lua",
+            "request": "launch",
+            "stopOnEntry": false,
+            //"runtimeExecutable": "E:/git/lua-5.3.4/build/lua.exe",
+            "luaexe": "E:/git/lua-5.3.4/build/lua.exe",
+            //"runtimeArgs": "${workspaceRoot}/test2.lua",
+            "program": "${workspaceRoot}/test.lua",
+            "luadll": "E:/git/lua-5.3.4/build/",
+            "consoleCoding": "utf8"
+        },
+        {
+            "type": "lua",
+            "request": "launch",
+            "stopOnEntry": false,
+            "name": "Launch",
+            "program": "${workspaceFolder}/test.lua"
+        }
+    ]
+}
